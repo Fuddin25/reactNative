@@ -10,7 +10,9 @@ export default function EmbedExpression() {
   return (
     <View>
       <StatusBar />
-      Welcome to {companyName} Class {getMajor()}
+      <Text>
+        Welcome to {companyName} Class {getMajor()}
+      </Text>
     </View>
   );
 }
