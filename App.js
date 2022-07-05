@@ -11,11 +11,13 @@ import EmbedExpression from "./src/screens/embedExpression";
 import Event from "./src/screens/event";
 import Props from "./src/screens/props";
 import State from "./src/screens/state";
+import Form from "./src/screens/form";
 
 export default function App() {
   return (
     <View>
      <StatusBar />
+     <Form />
      <Header />
      <Content />
      <EmbedExpression />
